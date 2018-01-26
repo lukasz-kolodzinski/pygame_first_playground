@@ -25,6 +25,7 @@ def main():
     pygame.draw.aaline(game_screen, (36, 123, 104), (120, 240), (120, 269))
     pygame.draw.aaline(game_screen, (36, 123, 104), (110, 250), (110, 269))
     pygame.draw.aaline(game_screen, (36, 123, 104), (100, 260), (100, 269))
+
 game_on = True
 while game_on is True:
     main()
